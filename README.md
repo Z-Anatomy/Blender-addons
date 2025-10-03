@@ -1,13 +1,14 @@
+Voici la liste mise à jour avec l'add-on **Z-Mirror** intégré au bon endroit par ordre alphabétique :
+
+---
+
 # Z-Anatomy Add-ons for Blender
-
 A collection of Blender add-ons designed to streamline workflows for Z-Anatomy: cross-sections, labels, colors, translations, documentation, and more.
-
 **Author**: Marcin Zieliński
 **License**: [CC-BY-SA 4.0](LICENSE)
 **Compatibility**: Blender 2.80 and later
 
 ---
-
 ## 📦 Add-ons List
 
 ### 1. Z-Cross
@@ -55,7 +56,17 @@ A collection of Blender add-ons designed to streamline workflows for Z-Anatomy: 
 
 ---
 
-### 6. Z-Sync
+### 6. Z-Mirror
+**Description**: Activate or deactivate Mirror modifiers for all mesh objects in visible collections.
+**Features**:
+- Toggle Mirror modifiers via checkbox for each collection.
+- Controls both viewport and render visibility.
+- Limited to the first 9 visible collections for clarity.
+**Note**: Useful for optimizing viewport performance and managing symmetry workflows.
+
+---
+
+### 7. Z-Sync
 **Description**: Sync object render visibility with viewport visibility.
 **Features**:
 - One-click sync for all objects.
@@ -63,7 +74,7 @@ A collection of Blender add-ons designed to streamline workflows for Z-Anatomy: 
 
 ---
 
-### 7. Z-Translate
+### 8. Z-Translate
 **Description**: Translate object names and text data using a translation list.
 **Features**:
 - Switch between languages for object names.
@@ -72,7 +83,7 @@ A collection of Blender add-ons designed to streamline workflows for Z-Anatomy: 
 
 ---
 
-### 8. Z-Wiki
+### 9. Z-Wiki
 **Description**: Download Wikipedia articles directly into Blender.
 **Features**:
 - Fetch articles based on a list of phrases.
@@ -110,3 +121,4 @@ For detailed instructions, refer to the specific README inside each `.zip` file.
 - Contributions are welcome via pull requests!
 
 ---
+**N'hésite pas si tu veux que j'ajoute ou modifie d'autres détails !**
