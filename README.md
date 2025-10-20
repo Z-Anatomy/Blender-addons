@@ -1,116 +1,61 @@
-# Z-Label Add-on for Blender
+Z-Anatomy Add-ons for Blender
+Une collection d'add-ons Blender conçus pour optimiser les workflows Z-Anatomy : annotations, coupes, couleurs, traductions, gestion des familles d'objets, et bien plus.
+Auteurs : Marcin Zieliński, Gauthier Kervyn
+Licence : CC-BY-SA 4.0
+Compatibilité : Blender 2.80+
 
-## Description
+📦 Liste des Add-ons
+1. Z-Cross
+Description : Gestion des coupes et plans de section.
+Fonctionnalités :
 
-Z-Label is a Blender add-on designed for anatomical labeling workflows. It enables automatic creation, positioning, and management of text labels attached to mesh vertices with associated line objects. The add-on provides precise hierarchy control and selection behavior tailored for anatomy-focused 3D annotation.
+Intègre un groupe de nœuds pour les matériaux de coupe.
+Prise en charge des plans de coupe nommés.
+Fonctionne avec les collections ou les objets.
 
-## Features
 
-- Create labels from selected meshes with connected line objects (`.j` suffix).
-- Position labels automatically above selected vertices with hook modifiers created on the line.
-- Only direct `.j` lines follow label movement; other children remain fixed.
-- Toggle selectability of all line objects via a checkbox in the UI.
-- Convert label location transforms into delta transforms for animation workflows.
-- Intuitive panel access in the "Z-Anatomy" sidebar tab.
+2. Z-Def
+Description : Synchronise l'éditeur de texte Blender avec le fichier .txt correspondant au nom de l'objet actif.
 
-## Installation
+3. Z-Family
+Description : Synchronise automatiquement l'éditeur de texte avec l'objet actif et permet la sélection automatique des enfants.
+Fonctionnalités :
 
-1. Download the add-on zip or `.py` file.
-2. In Blender, go to `Edit > Preferences > Add-ons`.
-3. Use the `Install...` button to select the downloaded file.
-4. Enable the add-on from the list.
+Synchronisation en temps réel de l'éditeur de texte avec l'objet actif.
+Sélection automatique des enfants de l'objet actif.
+Activation/désactivation facile des fonctionnalités.
 
-## Usage
 
-- **Convert Meshes to Labels**:
-  Select meshes and click **Convert Selected to Labels**.
-- **Position Label + Hook**:
-  In Edit Mode select a vertex, select the label, and click **Position label + hook automatically**.
-- **Convert Location to Delta**:
-  Select one or more labels and press **Convert location to delta**.
-- **Toggle Line Selectability**:
-  Use the checkbox at the bottom of the panel to toggle `.j` lines selectability.
+4. Z-Hide
+Description : Garde les lumières allumées en vue locale et lors du masquage d'objets (en développement).
 
-## Author
+5. Z-KeyColors
+Description : Gestion des couleurs clés pour les objets et collections.
 
-- Marcin Zieliński  
-- Gauthier KERVYN
+6. Z-Label
+Description : Crée des étiquettes à partir de zéro : texte + lignes de connexion.
+Fonctionnalités :
 
-## Compatibility
+Création automatique d'étiquettes à partir de maillages sélectionnés.
+Positionnement automatique des étiquettes au-dessus des sommets sélectionnés.
+Conversion des transformations de position en delta pour les workflows d'animation.
+Contrôle de la sélection des lignes associées.
 
-- Blender 2.80 and newer.
 
-## License
+7. Z-Label2
+Description : Convertit des objets existants en étiquettes pour des besoins d'annotation.
 
-Distributed under the [CC-BY-SA 4.0](LICENSE) license.
+8. Z-List
+Description : Copie les noms des objets sélectionnés pour la documentation ou le scripting.
 
----
+9. Z-Mirror
+Description : Active/désactive les modificateurs Mirror pour les collections de maillages.
 
-# Z-Anatomy Add-ons for Blender
+10. Z-Sync
+Description : Synchronise la visibilité des objets entre le rendu et la vue 3D.
 
-A curated collection of Blender add-ons to streamline Z-Anatomy workflows: annotations, cross-sections, colors, translations, and more.
+11. Z-Translate
+Description : Change de langue et importe des traductions pour les noms d'objets et les données.
 
-**Author**: Marcin Zieliński, Gauthier KERVYN  
-**License**: [CC-BY-SA 4.0](LICENSE)  
-**Compatibility**: Blender 2.80+
-
-## 📦 Add-ons List
-
-### 1. Z-Cross
-**Description**: Manage cross-sections and cutting planes.  
-**Features**:
-- Integrates a node-group for cut materials.
-- Named cutting planes support.
-- Works with collections or objects.
-
----
-
-### 2. Z-Def
-**Description**: Syncs Blender text editor to `.txt` file matching the active object's data name.
-
----
-
-### 3. Z-Hide
-**Description**: Keeps lights on in local view and when hiding objects (under development).
-
----
-
-### 4. Z-KeyColors
-**Description**: Manage key colors for objects and collections.
-
----
-
-### 5. Z-Label
-**Description**: Creates labels from scratches: text + connecting lines.
-
----
-
-### 6. Z-Label2
-**Description**: Converts existing objects into labels for annotation purposes.
-
----
-
-### 7. Z-List
-**Description**: Copies selected object names for documentation or scripting.
-
----
-
-### 8. Z-Mirror
-**Description**: Toggle Mirror modifiers for mesh collections.
-
----
-
-### 9. Z-Sync
-**Description**: Synchronize render and viewport visibility of objects.
-
----
-
-### 10. Z-Translate
-**Description**: Switch languages and import translations for object names and data.
-
----
-
-### 11. Z-Wiki
-**Description**: Download Wikipedia articles into Blender's text editor.
-
----
+12. Z-Wiki
+Description
