@@ -1,61 +1,17 @@
-Z-Anatomy Add-ons for Blender
-Une collection d'add-ons Blender conçus pour optimiser les workflows Z-Anatomy : annotations, coupes, couleurs, traductions, gestion des familles d'objets, et bien plus.
-Auteurs : Marcin Zieliński, Gauthier Kervyn
-Licence : CC-BY-SA 4.0
-Compatibilité : Blender 2.80+
+# Z-Anatomy Add-ons
 
-📦 Liste des Add-ons
-1. Z-Cross
-Description : Gestion des coupes et plans de section.
-Fonctionnalités :
+| Add-on      | Description                                                                 | Fonctionnalités Clés                                                                 | Installation                     | Usage                          | Compatibilité  |
+|-------------|-----------------------------------------------------------------------------|--------------------------------------------------------------------------------------|----------------------------------|--------------------------------|----------------|
+| **Z-Cross** | Gestion des plans de coupe et sections.                                    | Node-group pour matériaux, plans nommés, support collections/objets.                | `.zip` → `Edit > Preferences`    | Panneau **Z-Anatomy** (N)      | Blender 2.80+  |
+| **Z-Def**   | Synchronise l'éditeur de texte avec l'objet actif.                         | Synchronisation temps réel, intégration UI.                                          | `.zip` → Installer → Activer     | Case à cocher dans **Z-Anatomy** | Blender 4.5+   |
+| **Z-Family**| Synchronise texte + sélection automatique des enfants.                     | Sync texte, sélection récursive, toggle UI.                                          | `.zip` → Installer → Activer     | Cases à cocher dans **Z-Anatomy** | Blender 4.5+   |
+| **Z-Mirror**| Active/désactive les modificateurs "Mirror" pour les collections.           | 10 collections max, cases à cocher, temps réel.                                      | `.zip` → Installer → Activer     | Panneau **Z-Anatomy** (N)      | Blender 2.80+  |
+| **Z-Label** | Crée des étiquettes (texte + lignes) pour l'annotation.                    | Positionnement auto, hooks, conversion delta.                                         | `.zip` → Installer → Activer     | Boutons dans **Z-Anatomy**     | Blender 2.80+  |
+| **Z-Label2**| Convertit des objets existants en étiquettes.                              | Réutilisation d'objets, intégration rapide.                                          | `.zip` → Installer → Activer     | Panneau **Z-Anatomy**          | Blender 2.80+  |
+| **Z-List**  | Copie les noms des objets sélectionnés.                                    | Export rapide pour docs/scripts.                                                      | `.zip` → Installer → Activer     | Bouton dans **Z-Anatomy**       | Blender 2.80+  |
+| **Z-Sync**  | Synchronise visibilité rendu/vue 3D.                                       | Toggle global, mise à jour instantanée.                                              | `.zip` → Installer → Activer     | Case à cocher dans **Z-Anatomy** | Blender 2.80+  |
+| **Z-Translate** | Traduction des noms d'objets et données.                                | Changement de langue, import/export.                                                 | `.zip` → Installer → Activer     | Panneau **Z-Anatomy**          | Blender 2.80+  |
+| **Z-Wiki**  | Télécharge des articles Wikipedia dans Blender.                             | Intégration directe dans l'éditeur de texte.                                         | `.zip` → Installer → Activer     | Champ de recherche dans **Z-Anatomy** | Blender 2.80+  |
 
-Intègre un groupe de nœuds pour les matériaux de coupe.
-Prise en charge des plans de coupe nommés.
-Fonctionne avec les collections ou les objets.
-
-
-2. Z-Def
-Description : Synchronise l'éditeur de texte Blender avec le fichier .txt correspondant au nom de l'objet actif.
-
-3. Z-Family
-Description : Synchronise automatiquement l'éditeur de texte avec l'objet actif et permet la sélection automatique des enfants.
-Fonctionnalités :
-
-Synchronisation en temps réel de l'éditeur de texte avec l'objet actif.
-Sélection automatique des enfants de l'objet actif.
-Activation/désactivation facile des fonctionnalités.
-
-
-4. Z-Hide
-Description : Garde les lumières allumées en vue locale et lors du masquage d'objets (en développement).
-
-5. Z-KeyColors
-Description : Gestion des couleurs clés pour les objets et collections.
-
-6. Z-Label
-Description : Crée des étiquettes à partir de zéro : texte + lignes de connexion.
-Fonctionnalités :
-
-Création automatique d'étiquettes à partir de maillages sélectionnés.
-Positionnement automatique des étiquettes au-dessus des sommets sélectionnés.
-Conversion des transformations de position en delta pour les workflows d'animation.
-Contrôle de la sélection des lignes associées.
-
-
-7. Z-Label2
-Description : Convertit des objets existants en étiquettes pour des besoins d'annotation.
-
-8. Z-List
-Description : Copie les noms des objets sélectionnés pour la documentation ou le scripting.
-
-9. Z-Mirror
-Description : Active/désactive les modificateurs Mirror pour les collections de maillages.
-
-10. Z-Sync
-Description : Synchronise la visibilité des objets entre le rendu et la vue 3D.
-
-11. Z-Translate
-Description : Change de langue et importe des traductions pour les noms d'objets et les données.
-
-12. Z-Wiki
-Description
+**Licence** : [CC-BY-SA 4.0](LICENSE)
+**Auteurs** : Marcin Zieliński, Gauthier KERVYN
